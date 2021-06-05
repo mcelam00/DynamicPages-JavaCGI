@@ -3,8 +3,8 @@
 <head><title>Formulario Simple</title></head>
 <body>
 <h2>El formulario m&aacute;s simple</h2>
-<form name="login" action="/cgi-bin/holamundo.cgi" 
-      method ="GET" target="_self">
+<form name="login" action="/cgi-bin/holamundo.cgi" <!-- Barra porque es una ruta absoluta -->
+      method ="GET" target="_self"> <!--El metodo es GET y target es si se ve en otra ventana-->
 Introduzca su nombre:&nbsp;&nbsp;
 <input type="text" name="nombre" size="25"><br><br> 
 <input type="submit" value="Enviar ">&nbsp;&nbsp;&nbsp; 
